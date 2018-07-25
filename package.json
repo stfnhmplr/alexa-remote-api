@@ -1,0 +1,40 @@
+{
+  "name": "alexa-remote-api",
+  "version": "0.0.1",
+  "description": "Api wrapper around alexa-remote2",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register",
+    "start": "nodemon ./src/server.js --exec babel-node --presets babel-preset-env",
+    "build": "babel src -d dist --presets babel-preset-env",
+    "serve": "node dist/server.js"
+  },
+  "keywords": [
+    "alexa",
+    "tts"
+  ],
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1",
+    "nodemon": "^1.18.3"
+  },
+  "bin": {
+    "alexa-remote-rest-api": "./bin/cli.js"
+  },
+  "author": "stfnhmplr <stfnhmplr@gmail.com> (http://himpler.com)",
+  "license": "MIT",
+  "dependencies": {
+    "alexa-remote2": "^0.2.4",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  }
+}
