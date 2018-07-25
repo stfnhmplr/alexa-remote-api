@@ -1,6 +1,6 @@
 {
   "name": "alexa-remote-api",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Api wrapper around alexa-remote2",
   "main": "server.js",
   "scripts": {
@@ -28,7 +28,7 @@
     "nodemon": "^1.18.3"
   },
   "bin": {
-    "alexa-remote-rest-api": "./bin/cli.js"
+    "alexa-remote-api": "./bin/cli.js"
   },
   "author": "stfnhmplr <stfnhmplr@gmail.com> (http://himpler.com)",
   "license": "MIT",
