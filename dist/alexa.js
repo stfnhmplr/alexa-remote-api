@@ -20,7 +20,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var alexa = new _alexaRemote2.default();
 
-var path = _os2.default.homedir() + '/.alexa-remote-rest-api/config.json';
+var path = _os2.default.homedir() + '/.alexa-remote-api/config.json';
 
 console.log('loading config from ' + path);
 

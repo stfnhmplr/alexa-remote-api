@@ -3,7 +3,7 @@ import os from 'os'
 import Alexa from 'alexa-remote2'
 const alexa = new Alexa();
 
-const path = os.homedir() + '/.alexa-remote-rest-api/config.json';
+const path = os.homedir() + '/.alexa-remote-api/config.json';
 
 console.log(`loading config from ${path}`);
 
