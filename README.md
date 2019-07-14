@@ -36,3 +36,7 @@ curl --header "Content-Type: application/json" \
   --data '{"device":"echo","text":"hello world"}' \
   http://localhost:3000/speak
 ```
+
+## Changelog
+### 0.0.3
+- package updates
